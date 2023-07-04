@@ -4,32 +4,32 @@
 - Provide an overview of Amazon DynamoDB and its key features.
 
 ## What is DynamoDB
-Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS). It is designed to deliver fast and predictable performance at any scale. DynamoDB offers a flexible and schema-less data model, allowing you to store and retrieve data using simple key-value or document-based operations.
+Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS). It is designed to deliver fast and predictable performance at any scale. DynamoDB offers a flexible schema-less data model, allowing you to store and retrieve data using simple key-value or document-based operations.
 
 ## Prerequisites
 - List the prerequisites required to follow the steps in the documentation, such as an AWS account and access to the AWS Management Console.
 
 ## Step 1: Creating a DynamoDB Table
 - Creating a DynamoDB table:
-![Search 'DynamoDB' in AWS service menu](C:\Users\ahmad\Pictures\Screenshots\Screenshot (4).png).
+![Screenshot (4)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/e5609f8e-6f17-48e7-9416-255d95d2aec8)
 - In Table, click 'Create table'.
-![creating new table](C:\Users\ahmad\Pictures\Screenshots\Screenshot (6).png).
+![Screenshot (6)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/6b57f4b2-699d-4502-b6c9-9323d8c1f612)
 - In Table detail, input table name, partition key, and sort key.
-![inputting table detail](C:\Users\ahmad\Pictures\Screenshots\Screenshot (8).png).
+![Screenshot (8)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/2e69e0f5-9359-4566-8a25-df1b4acb46b7)
 - Then click 'Create Table'.
-![create table](C:\Users\ahmad\Pictures\Screenshots\Screenshot (9).png).
+![Screenshot (9)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/5a329722-3e1c-45f2-b041-1156743d40ee)
 - The table will appear in the DynamoDB tables list. Wait a short while for the status table to change to active if it is initially still developing.
-![active status on the table](C:\Users\ahmad\Pictures\Screenshots\Screenshot (10).png).
+![Screenshot (10)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/caef8a40-350f-4f3d-99d9-b0fc2090cf65)
 - Go to Explore items: your-table-name, select 'Create item'.
-![create item in Explore item](C:\Users\ahmad\Pictures\Screenshots\Screenshot (11).png).
+![Screenshot (11)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/211f5133-654f-4999-a131-8fecb1b6a169)
 - Enter the value for the table attribute, and then select "Create item" to add data to the table.
-![input values](C:\Users\ahmad\Pictures\Screenshots\Screenshot (12).png).
+![Screenshot (12)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/d70af7a0-f13e-4d86-a125-436702e49500)
 - It will be displayed like this.
-![Displayed item](C:\Users\ahmad\Pictures\Screenshots\Screenshot (13).png).
+![Screenshot (13)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/54df7aa0-5292-4467-b6e4-d1bfdea4d62d)
 
 ## Step 2: Importing Data from a CSV File
 - Select DynamoDB from the menu, click Import from S3, and then select "Import from S3" to import datasets from an S3 bucket.
-![Click Import from S3](C:\Users\ahmad\Pictures\Screenshots\Screenshot (14).png).
+![Screenshot (14)](https://github.com/RaphonGaluh/DynamoDB/assets/122784852/1bb966dd-e4b0-40cc-a0f8-0ed4f2bd74aa)
 - 
 
 ## Step 3: Performing Queries or Scans with Filters
